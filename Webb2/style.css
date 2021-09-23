@@ -11,6 +11,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/R6.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -49,20 +50,10 @@
   text-transform: uppercase;
 }
 
-.navbar ul li::after {
-  content: '';
-  height: 3px;
-  width: 0%;
-  background: #009688;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.navbar ul li:hover::after {
-  width: 100%;
+.navbar ul li:hover {
+  border: 2px solid #ff7a59;
+  color: white;
+  background: transparent;
 }
 
 .content {
