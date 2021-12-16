@@ -83,15 +83,15 @@ button:hover, a:hover {
   background: transparent;
 }
 
-.content {
-  height: 10vw;
-  width: 100vw;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  text-align: center;
-  color: white;
-}
+  .content {
+    height: 10vw;
+    width: 100vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+    color: white;
+  }
 
 .content h1 {
   font-size: 70px;
